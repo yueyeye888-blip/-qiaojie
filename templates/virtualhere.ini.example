@@ -1,0 +1,7 @@
+# TEMPLATE ONLY. Fill a valid license for this hardware locally; chmod 0600.
+License=<FILL_LOCALLY_DO_NOT_COMMIT>
+AllowedDevices=10d7/b012
+NetworkInterface=127.0.0.1
+TCPPort=7576
+UseAVAHI=0
+ReverseClients=

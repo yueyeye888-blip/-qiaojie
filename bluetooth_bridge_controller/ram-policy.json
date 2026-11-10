@@ -1,0 +1,16 @@
+{
+  "Version": "1",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "ecd:DescribeDesktops",
+        "ecd:DescribeInvocations",
+        "ecd:RunCommand",
+        "ecd:StartDesktops",
+        "ecd:WakeupDesktops"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Observed deployment settings, NOT a fresh-install configuration. Addresses redacted; enabled flags require real system components. No runtime/credentials included.",
+  "settings": {
+    "ui_bind": "127.0.0.1",
+    "ui_port": 8766,
+    "agent_port": 8767,
+    "usb_vendor_id": "10d7",
+    "usb_product_id": "b012",
+    "usb_name": "general adapter",
+    "lease_seconds": 900,
+    "renew_interval_seconds": 10,
+    "agent_offline_seconds": 35,
+    "runtime_dir": "runtime",
+    "max_batch_size": 3,
+    "usb_proxy_enabled": true,
+    "usb_backend_port": 7576,
+    "usb_proxy_port": 7575,
+    "source_reset_enabled": true,
+    "bulk_validation_hold": false,
+    "agent_bind": "<MAC_TAILSCALE_IPV4>",
+    "virtualhere_hub": "<MAC_TAILSCALE_IPV4>:7575"
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "observed_at": "2026-11-10T16:24:45.908564+08:00",
+  "scope": "source versus installed user-deployment; no runtime API called",
+  "files": [
+    {
+      "path": "bluetooth_bridge_controller/.gitignore",
+      "source_sha256": "5b33d2b766c86c44640c8fc1ff013c22686aad60c146fc26a31d9111f533ffd0",
+      "public_sha256": "5b33d2b766c86c44640c8fc1ff013c22686aad60c146fc26a31d9111f533ffd0",
+      "deployment_match": false,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/OPERATIONS.md",
+      "source_sha256": "fe4170a196170173b71b35d3779f54127884232781b942ff961ebd429eb1d3c4",
+      "public_sha256": "1ad06950a1885741ff731ce6830ba80cb4eb268606bfce4bab5a8ffad26341de",
+      "deployment_match": true,
+      "redacted": true
+    },
+    {
+      "path": "bluetooth_bridge_controller/README.md",
+      "source_sha256": "4de4e5e2de750f1c8f67f2ff05d8945d86aa13ec9dc4ba5ec03b61a9c9eb0362",
+      "public_sha256": "4de4e5e2de750f1c8f67f2ff05d8945d86aa13ec9dc4ba5ec03b61a9c9eb0362",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/TEST_REPORT.md",
+      "source_sha256": "bc0c483272c5482091c8893dc1eec58630a7627b70833e9c11858fd876ebe879",
+      "public_sha256": "dd6e3c105678d917c82acdf351539ae0ed01f23a3c24f1efd85f3499e78f9873",
+      "deployment_match": true,
+      "redacted": true
+    },
+    {
+      "path": "bluetooth_bridge_controller/config.example.json",
+      "source_sha256": "076d8abb4675646a1b7ac0cecc466d2dfec23bad057ba4341c090de28e33851d",
+      "public_sha256": "076d8abb4675646a1b7ac0cecc466d2dfec23bad057ba4341c090de28e33851d",
+      "deployment_match": false,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/controller.py",
+      "source_sha256": "90515558896cddc1683ea37025206e34a595e0e6879016e4cef1794a8d63f829",
+      "public_sha256": "90515558896cddc1683ea37025206e34a595e0e6879016e4cef1794a8d63f829",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/enable_source_reset.py",
+      "source_sha256": "93c0600a2b64f198fd5fcdc9aca0e23c144bbafe11af935107a4c7f227d3c383",
+      "public_sha256": "93c0600a2b64f198fd5fcdc9aca0e23c144bbafe11af935107a4c7f227d3c383",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/install_login_service.py",
+      "source_sha256": "65b479315ab47f7ebaa09572252a1f858036691049af9a4edfb3882f5b40eac0",
+      "public_sha256": "65b479315ab47f7ebaa09572252a1f858036691049af9a4edfb3882f5b40eac0",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/install_source_isolation.py",
+      "source_sha256": "845e75301e4b67707dc45a1ae9239ff0fc788b9f9e7a622ddd1820a46363ec65",
+      "public_sha256": "845e75301e4b67707dc45a1ae9239ff0fc788b9f9e7a622ddd1820a46363ec65",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/install_source_reset_helper.py",
+      "source_sha256": "75d9867fa1c89b65c1cd9c1a4f6a2e2faea0b9f8e0f818e95828107a0c940769",
+      "public_sha256": "75d9867fa1c89b65c1cd9c1a4f6a2e2faea0b9f8e0f818e95828107a0c940769",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/integrations.py",
+      "source_sha256": "0434a18447c3dfeaf04c594d7cdb5cf95b64a6cbcff3a6317331b497aa0bc982",
+      "public_sha256": "0434a18447c3dfeaf04c594d7cdb5cf95b64a6cbcff3a6317331b497aa0bc982",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/launch.py",
+      "source_sha256": "7db78356209df130dc041aa2736e4f4f9343ade9ea758c4e004cd0033d55140a",
+      "public_sha256": "7db78356209df130dc041aa2736e4f4f9343ade9ea758c4e004cd0033d55140a",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/management.py",
+      "source_sha256": "700aeb8180eea843953461be58d24a90a2bec3978423dd638677dcb14dbfa7fe",
+      "public_sha256": "700aeb8180eea843953461be58d24a90a2bec3978423dd638677dcb14dbfa7fe",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/ram-policy.json",
+      "source_sha256": "1e8f4266975224207af0ac62245a8116cdbd95405c84c1968b56e24d3ac31714",
+      "public_sha256": "1e8f4266975224207af0ac62245a8116cdbd95405c84c1968b56e24d3ac31714",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/restart_source.py",
+      "source_sha256": "95ef5936ec377890bdd12796f9cc109218dfdeb3a7d0a5bece093c4640ad8bbb",
+      "public_sha256": "95ef5936ec377890bdd12796f9cc109218dfdeb3a7d0a5bece093c4640ad8bbb",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/setup_local.py",
+      "source_sha256": "80428d8f82d98ad3f3f87d71a07d79169fd1ffcde86d341b8e8c4764c562c7a8",
+      "public_sha256": "80428d8f82d98ad3f3f87d71a07d79169fd1ffcde86d341b8e8c4764c562c7a8",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/setup_tailscale_oauth.py",
+      "source_sha256": "d79c4d46f29ef98f75080bd78e38b83cb290e503605c00cab03eb61a69d5f3d6",
+      "public_sha256": "d79c4d46f29ef98f75080bd78e38b83cb290e503605c00cab03eb61a69d5f3d6",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/source_cycle_acceptance.py",
+      "source_sha256": "a1be06e8758bd1c61cdf67a425be9575de30d915924fa5c5a32244e44f4a5962",
+      "public_sha256": "961b1e1908870a5eaab14e4a4da705d7b65915d5e50f1b0424bc9aa8435c1551",
+      "deployment_match": true,
+      "redacted": true
+    },
+    {
+      "path": "bluetooth_bridge_controller/source_probe.py",
+      "source_sha256": "7617b4f030ba81d5f38af3b571c5fe4528cd78ce72c31707817f91ca783aa175",
+      "public_sha256": "7617b4f030ba81d5f38af3b571c5fe4528cd78ce72c31707817f91ca783aa175",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/source_reset.py",
+      "source_sha256": "14530cf17bd0c0e1b5be97fdd3b562e1d0c4594dcd197e5011938fe9a3a6dc05",
+      "public_sha256": "14530cf17bd0c0e1b5be97fdd3b562e1d0c4594dcd197e5011938fe9a3a6dc05",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/source_reset_helper.py",
+      "source_sha256": "3ade2995a550e283ea03afc6e443bc89be42fffdc055641bea78cbe9e1608664",
+      "public_sha256": "3ade2995a550e283ea03afc6e443bc89be42fffdc055641bea78cbe9e1608664",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/static/app.js",
+      "source_sha256": "6104c1b5e54021c663463e3046c898906a3911152685729afec4168227391a40",
+      "public_sha256": "6104c1b5e54021c663463e3046c898906a3911152685729afec4168227391a40",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/static/index.html",
+      "source_sha256": "3afe3994a2f9afac2c6e2d038d1393d62c8b4bc11c29e5c58289c6241d4fba0b",
+      "public_sha256": "3afe3994a2f9afac2c6e2d038d1393d62c8b4bc11c29e5c58289c6241d4fba0b",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/static/management.css",
+      "source_sha256": "88f77ae1bbbe06a50c02717a08d0c1a347c9baf78363dd8d75c7b3a71af98cf2",
+      "public_sha256": "88f77ae1bbbe06a50c02717a08d0c1a347c9baf78363dd8d75c7b3a71af98cf2",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/static/management.js",
+      "source_sha256": "7d6670a1c14c98b621305ca6cb39fcf7aaf409ddde5b4ca68c03b07e77f1d72a",
+      "public_sha256": "7d6670a1c14c98b621305ca6cb39fcf7aaf409ddde5b4ca68c03b07e77f1d72a",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/static/styles.css",
+      "source_sha256": "dd6e33567cc09e89a26f755cd0178491e87d8616a6dd48390e6d252319b0332f",
+      "public_sha256": "dd6e33567cc09e89a26f755cd0178491e87d8616a6dd48390e6d252319b0332f",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/static/view-model.js",
+      "source_sha256": "0ba52a83b02eafe3fffc3bc7436dc0d1df90c2e497b97d378d654849be2d9071",
+      "public_sha256": "0ba52a83b02eafe3fffc3bc7436dc0d1df90c2e497b97d378d654849be2d9071",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tailscale_oauth.py",
+      "source_sha256": "e081e968ba5a9ee4a60fb3e1b313b5e4b216a44c79e606e959c563db61388369",
+      "public_sha256": "e081e968ba5a9ee4a60fb3e1b313b5e4b216a44c79e606e959c563db61388369",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_cloud_regions.py",
+      "source_sha256": "f8666fff5cc059001ece64268094d69d5c1d678974933f29fa29bc17c15cf697",
+      "public_sha256": "f8666fff5cc059001ece64268094d69d5c1d678974933f29fa29bc17c15cf697",
+      "deployment_match": false,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_controller.py",
+      "source_sha256": "8aa4ee8b5d78047c2e4f68bb0d8a2eaeef48c2bda4b911bbc2ebdd8d09f01809",
+      "public_sha256": "8aa4ee8b5d78047c2e4f68bb0d8a2eaeef48c2bda4b911bbc2ebdd8d09f01809",
+      "deployment_match": false,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_http.py",
+      "source_sha256": "f874e53092f61546605e6e396d364728fbf198420f6f85ef34c77d756c429db4",
+      "public_sha256": "3c8bdf1b3a644c5ae3d43a1fc11c9224cd5006f504bd867a851fecc0a32bd22b",
+      "deployment_match": false,
+      "redacted": true
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_install.py",
+      "source_sha256": "c6982df1dbd3eee6aafd6312bb2862b3fc5cb715fcd9db2b81bfcbc31349f47e",
+      "public_sha256": "c6982df1dbd3eee6aafd6312bb2862b3fc5cb715fcd9db2b81bfcbc31349f47e",
+      "deployment_match": false,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_management.py",
+      "source_sha256": "f96cbf8ba8a07b076417e474dff51350c88ca93dc933ce93b94b62273f548365",
+      "public_sha256": "d8a07da448d0f3a590c8f0eeba6fab6e9163895eca441fdd810b0a0af0c7887f",
+      "deployment_match": false,
+      "redacted": true
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_source_cycle.py",
+      "source_sha256": "78046ff76e435ac6f46ff5db9811f4d777a23b1784d624c0674beb10873108f6",
+      "public_sha256": "78046ff76e435ac6f46ff5db9811f4d777a23b1784d624c0674beb10873108f6",
+      "deployment_match": false,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_source_install.py",
+      "source_sha256": "1d028230c0c4411e2bd70eac0abdd7ea5065af889ffffbe04fb4cbe274e5063b",
+      "public_sha256": "1d028230c0c4411e2bd70eac0abdd7ea5065af889ffffbe04fb4cbe274e5063b",
+      "deployment_match": false,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_source_reset.py",
+      "source_sha256": "0fb760647823c3bc3781b8bd0a7dd6a3bf25ed52bcda12e134f8ed17c45a883b",
+      "public_sha256": "0fb760647823c3bc3781b8bd0a7dd6a3bf25ed52bcda12e134f8ed17c45a883b",
+      "deployment_match": false,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_telegram_pairing.py",
+      "source_sha256": "84a4a30672811a056b11ef234267e33b48d49d7a850e0343d4896757a645b864",
+      "public_sha256": "84a4a30672811a056b11ef234267e33b48d49d7a850e0343d4896757a645b864",
+      "deployment_match": false,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_usb_proxy.py",
+      "source_sha256": "63e791283d5aa373b95d5a7fb3afc2003fa4f480c8f390160ccc1e1801384951",
+      "public_sha256": "63e791283d5aa373b95d5a7fb3afc2003fa4f480c8f390160ccc1e1801384951",
+      "deployment_match": false,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_watchdog.py",
+      "source_sha256": "33fd8ff288d804466a954676717e07878296b86243b818fea2f42b2318aa539e",
+      "public_sha256": "8019a827c048dd68ee77361d41e5478baed64e98ee99603bde19a930df0f4d0b",
+      "deployment_match": false,
+      "redacted": true
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/ui_smoke.cjs",
+      "source_sha256": "e36c824b40b3b4f7f533485d77fc2640c50e3685d0ec13113b081b7a471749fc",
+      "public_sha256": "e36c824b40b3b4f7f533485d77fc2640c50e3685d0ec13113b081b7a471749fc",
+      "deployment_match": false,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/usb_proxy.py",
+      "source_sha256": "594fbb1c4e51af4599b0b0e857e33dcdab153573e5a7eae64d37896257d197dd",
+      "public_sha256": "594fbb1c4e51af4599b0b0e857e33dcdab153573e5a7eae64d37896257d197dd",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/watchdog.py",
+      "source_sha256": "65eefd6e6e9423276c4a6dde288213e7238bc57dc490cca720197ff6212bbecf",
+      "public_sha256": "65eefd6e6e9423276c4a6dde288213e7238bc57dc490cca720197ff6212bbecf",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/windows/agent.ps1",
+      "source_sha256": "3148c033579e11b1ab4334ffa34d16576b767edc2dce63a88d3c92acc4c45973",
+      "public_sha256": "3148c033579e11b1ab4334ffa34d16576b767edc2dce63a88d3c92acc4c45973",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/windows/bootstrap.ps1",
+      "source_sha256": "e6cab292d3d6e96f418c532b5d2feb0413d09e1fc6e194932aa57f663a1e9932",
+      "public_sha256": "e6cab292d3d6e96f418c532b5d2feb0413d09e1fc6e194932aa57f663a1e9932",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/windows/diagnose.ps1",
+      "source_sha256": "4e3bb6aa51efb58b2b8c750cbe1b538cb9ebb839744888af7e6d1a45d35352f8",
+      "public_sha256": "4e3bb6aa51efb58b2b8c750cbe1b538cb9ebb839744888af7e6d1a45d35352f8",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/windows/install-watchdog.ps1",
+      "source_sha256": "355e856217e5da19bac2b2ec0c9222323eddaf2bbf7d5b968cd6ba6c25f23bce",
+      "public_sha256": "bd3c2d1c64fe94aa53ec523e786f098ebc0dd902d54565cee971b9ce676e0a23",
+      "deployment_match": true,
+      "redacted": true
+    },
+    {
+      "path": "bluetooth_bridge_controller/windows/recover-network.ps1",
+      "source_sha256": "95accbcddf638581222a68a80677f23fc2b2889f53907de8c2b8b204901842ff",
+      "public_sha256": "95accbcddf638581222a68a80677f23fc2b2889f53907de8c2b8b204901842ff",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/windows/repair.ps1",
+      "source_sha256": "8b414eddc868e336942dc4da05f423c9bb9df713397e22ded1cb6ff929b9bbb3",
+      "public_sha256": "8b414eddc868e336942dc4da05f423c9bb9df713397e22ded1cb6ff929b9bbb3",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/安装自动复位组件.command",
+      "source_sha256": "6af9e52b2c5ad8c67512b7bf45f86d7a75d82083d7ea32536b645c24d2a23e6c",
+      "public_sha256": "6af9e52b2c5ad8c67512b7bf45f86d7a75d82083d7ea32536b645c24d2a23e6c",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/打开蓝牙控制台.command",
+      "source_sha256": "50342a5dc80d4d826e73069f780746c02c4bdc4460069ef037558f6e178d6a32",
+      "public_sha256": "50342a5dc80d4d826e73069f780746c02c4bdc4460069ef037558f6e178d6a32",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/自动复位切换验收.command",
+      "source_sha256": "d4734375cd93aab2fb02a23d18febe9aa7e29816ee611bb675089255698f90f5",
+      "public_sha256": "d4734375cd93aab2fb02a23d18febe9aa7e29816ee611bb675089255698f90f5",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/重启USB桥接服务.command",
+      "source_sha256": "4fc428eedcec77628d2d687871b4965cdc423d98a2507da4fdffa6a8b08d3004",
+      "public_sha256": "4fc428eedcec77628d2d687871b4965cdc423d98a2507da4fdffa6a8b08d3004",
+      "deployment_match": true,
+      "redacted": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/首次配置管理后台.command",
+      "source_sha256": "793def1585ffda026bc76bfc6edd166b75981963ca7c327482c2375841d74fcd",
+      "public_sha256": "793def1585ffda026bc76bfc6edd166b75981963ca7c327482c2375841d74fcd",
+      "deployment_match": true,
+      "redacted": false
+    }
+  ]
+}

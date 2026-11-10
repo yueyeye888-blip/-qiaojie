@@ -1,0 +1,437 @@
+{
+  "baseline": "2026-11-10-single-usb-working-baseline",
+  "created_at": "2026-11-10T16:30:00.802281+08:00",
+  "excludes": [
+    "backup/manifest.json (self-reference)",
+    "Git metadata",
+    "private state archives"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 278,
+      "sha256": "d23218a5753c4f955d278ca8b61057c793a8ea11dbefb20e27c5b9f654029236",
+      "executable": false
+    },
+    {
+      "path": "README.md",
+      "bytes": 3268,
+      "sha256": "97e1c54d9e6d2cc81b3c2103fd9205ef5146d9af6f4eb276abf4754d25cb3cde",
+      "executable": false
+    },
+    {
+      "path": "backup/REDACTIONS.md",
+      "bytes": 1175,
+      "sha256": "8b69a2612d336f28b8484492d9c74d72347c1570d8ca2f61dd54bd5eb1781bc3",
+      "executable": false
+    },
+    {
+      "path": "backup/VALIDATION_RESULTS.md",
+      "bytes": 2590,
+      "sha256": "db0e4eb8de037fa2cdc4ca5d98209295100f72f0c2084b8f9784f9d909dbd89c",
+      "executable": false
+    },
+    {
+      "path": "backup/baseline.json",
+      "bytes": 574,
+      "sha256": "ed9468ca16b015a1b148ffbff361ff756a0242e85d750b6a7426486e4624f7c9",
+      "executable": false
+    },
+    {
+      "path": "backup/deployment-settings.sanitized.json",
+      "bytes": 774,
+      "sha256": "476b05191ebc89c974bda22a01621e2f2f8102c6aaa62fe0df81e5abebf4a8e0",
+      "executable": false
+    },
+    {
+      "path": "backup/schema.sql",
+      "bytes": 3319,
+      "sha256": "31dda30b7d2de587a92a47c46cfa83310662108728ead283ef3c6f306be813d4",
+      "executable": false
+    },
+    {
+      "path": "backup/source-provenance.json",
+      "bytes": 16985,
+      "sha256": "402770a072661613963b70ab4a3d96f4384e68fd20652c7a73b9f7a812cdad13",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/.gitignore",
+      "bytes": 50,
+      "sha256": "5b33d2b766c86c44640c8fc1ff013c22686aad60c146fc26a31d9111f533ffd0",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/OPERATIONS.md",
+      "bytes": 12681,
+      "sha256": "1ad06950a1885741ff731ce6830ba80cb4eb268606bfce4bab5a8ffad26341de",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/README.md",
+      "bytes": 6921,
+      "sha256": "4de4e5e2de750f1c8f67f2ff05d8945d86aa13ec9dc4ba5ec03b61a9c9eb0362",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/TEST_REPORT.md",
+      "bytes": 21810,
+      "sha256": "dd6e3c105678d917c82acdf351539ae0ed01f23a3c24f1efd85f3499e78f9873",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/config.example.json",
+      "bytes": 571,
+      "sha256": "076d8abb4675646a1b7ac0cecc466d2dfec23bad057ba4341c090de28e33851d",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/controller.py",
+      "bytes": 45403,
+      "sha256": "90515558896cddc1683ea37025206e34a595e0e6879016e4cef1794a8d63f829",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/enable_source_reset.py",
+      "bytes": 1307,
+      "sha256": "93c0600a2b64f198fd5fcdc9aca0e23c144bbafe11af935107a4c7f227d3c383",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/install_login_service.py",
+      "bytes": 4817,
+      "sha256": "65b479315ab47f7ebaa09572252a1f858036691049af9a4edfb3882f5b40eac0",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/install_source_isolation.py",
+      "bytes": 11612,
+      "sha256": "845e75301e4b67707dc45a1ae9239ff0fc788b9f9e7a622ddd1820a46363ec65",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/install_source_reset_helper.py",
+      "bytes": 11152,
+      "sha256": "75d9867fa1c89b65c1cd9c1a4f6a2e2faea0b9f8e0f818e95828107a0c940769",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/integrations.py",
+      "bytes": 8728,
+      "sha256": "0434a18447c3dfeaf04c594d7cdb5cf95b64a6cbcff3a6317331b497aa0bc982",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/launch.py",
+      "bytes": 2068,
+      "sha256": "7db78356209df130dc041aa2736e4f4f9343ade9ea758c4e004cd0033d55140a",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/management.py",
+      "bytes": 30862,
+      "sha256": "700aeb8180eea843953461be58d24a90a2bec3978423dd638677dcb14dbfa7fe",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/ram-policy.json",
+      "bytes": 280,
+      "sha256": "1e8f4266975224207af0ac62245a8116cdbd95405c84c1968b56e24d3ac31714",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/restart_source.py",
+      "bytes": 1789,
+      "sha256": "95ef5936ec377890bdd12796f9cc109218dfdeb3a7d0a5bece093c4640ad8bbb",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/setup_local.py",
+      "bytes": 4047,
+      "sha256": "80428d8f82d98ad3f3f87d71a07d79169fd1ffcde86d341b8e8c4764c562c7a8",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/setup_tailscale_oauth.py",
+      "bytes": 790,
+      "sha256": "d79c4d46f29ef98f75080bd78e38b83cb290e503605c00cab03eb61a69d5f3d6",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/source_cycle_acceptance.py",
+      "bytes": 12346,
+      "sha256": "961b1e1908870a5eaab14e4a4da705d7b65915d5e50f1b0424bc9aa8435c1551",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/source_probe.py",
+      "bytes": 809,
+      "sha256": "7617b4f030ba81d5f38af3b571c5fe4528cd78ce72c31707817f91ca783aa175",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/source_reset.py",
+      "bytes": 2643,
+      "sha256": "14530cf17bd0c0e1b5be97fdd3b562e1d0c4594dcd197e5011938fe9a3a6dc05",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/source_reset_helper.py",
+      "bytes": 8908,
+      "sha256": "3ade2995a550e283ea03afc6e443bc89be42fffdc055641bea78cbe9e1608664",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/static/app.js",
+      "bytes": 17345,
+      "sha256": "6104c1b5e54021c663463e3046c898906a3911152685729afec4168227391a40",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/static/index.html",
+      "bytes": 13601,
+      "sha256": "3afe3994a2f9afac2c6e2d038d1393d62c8b4bc11c29e5c58289c6241d4fba0b",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/static/management.css",
+      "bytes": 3808,
+      "sha256": "88f77ae1bbbe06a50c02717a08d0c1a347c9baf78363dd8d75c7b3a71af98cf2",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/static/management.js",
+      "bytes": 18139,
+      "sha256": "7d6670a1c14c98b621305ca6cb39fcf7aaf409ddde5b4ca68c03b07e77f1d72a",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/static/styles.css",
+      "bytes": 13934,
+      "sha256": "dd6e33567cc09e89a26f755cd0178491e87d8616a6dd48390e6d252319b0332f",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/static/view-model.js",
+      "bytes": 3883,
+      "sha256": "0ba52a83b02eafe3fffc3bc7436dc0d1df90c2e497b97d378d654849be2d9071",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tailscale_oauth.py",
+      "bytes": 2233,
+      "sha256": "e081e968ba5a9ee4a60fb3e1b313b5e4b216a44c79e606e959c563db61388369",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_cloud_regions.py",
+      "bytes": 890,
+      "sha256": "f8666fff5cc059001ece64268094d69d5c1d678974933f29fa29bc17c15cf697",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_controller.py",
+      "bytes": 12598,
+      "sha256": "8aa4ee8b5d78047c2e4f68bb0d8a2eaeef48c2bda4b911bbc2ebdd8d09f01809",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_http.py",
+      "bytes": 5418,
+      "sha256": "3c8bdf1b3a644c5ae3d43a1fc11c9224cd5006f504bd867a851fecc0a32bd22b",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_install.py",
+      "bytes": 2216,
+      "sha256": "c6982df1dbd3eee6aafd6312bb2862b3fc5cb715fcd9db2b81bfcbc31349f47e",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_management.py",
+      "bytes": 10717,
+      "sha256": "d8a07da448d0f3a590c8f0eeba6fab6e9163895eca441fdd810b0a0af0c7887f",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_source_cycle.py",
+      "bytes": 5590,
+      "sha256": "78046ff76e435ac6f46ff5db9811f4d777a23b1784d624c0674beb10873108f6",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_source_install.py",
+      "bytes": 1245,
+      "sha256": "1d028230c0c4411e2bd70eac0abdd7ea5065af889ffffbe04fb4cbe274e5063b",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_source_reset.py",
+      "bytes": 11552,
+      "sha256": "0fb760647823c3bc3781b8bd0a7dd6a3bf25ed52bcda12e134f8ed17c45a883b",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_telegram_pairing.py",
+      "bytes": 1319,
+      "sha256": "84a4a30672811a056b11ef234267e33b48d49d7a850e0343d4896757a645b864",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_usb_proxy.py",
+      "bytes": 5296,
+      "sha256": "63e791283d5aa373b95d5a7fb3afc2003fa4f480c8f390160ccc1e1801384951",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/test_watchdog.py",
+      "bytes": 2680,
+      "sha256": "8019a827c048dd68ee77361d41e5478baed64e98ee99603bde19a930df0f4d0b",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/tests/ui_smoke.cjs",
+      "bytes": 11054,
+      "sha256": "e36c824b40b3b4f7f533485d77fc2640c50e3685d0ec13113b081b7a471749fc",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/usb_proxy.py",
+      "bytes": 3852,
+      "sha256": "594fbb1c4e51af4599b0b0e857e33dcdab153573e5a7eae64d37896257d197dd",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/watchdog.py",
+      "bytes": 3287,
+      "sha256": "65eefd6e6e9423276c4a6dde288213e7238bc57dc490cca720197ff6212bbecf",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/windows/agent.ps1",
+      "bytes": 11620,
+      "sha256": "3148c033579e11b1ab4334ffa34d16576b767edc2dce63a88d3c92acc4c45973",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/windows/bootstrap.ps1",
+      "bytes": 8877,
+      "sha256": "e6cab292d3d6e96f418c532b5d2feb0413d09e1fc6e194932aa57f663a1e9932",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/windows/diagnose.ps1",
+      "bytes": 1338,
+      "sha256": "4e3bb6aa51efb58b2b8c750cbe1b538cb9ebb839744888af7e6d1a45d35352f8",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/windows/install-watchdog.ps1",
+      "bytes": 8929,
+      "sha256": "bd3c2d1c64fe94aa53ec523e786f098ebc0dd902d54565cee971b9ce676e0a23",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/windows/recover-network.ps1",
+      "bytes": 2679,
+      "sha256": "95accbcddf638581222a68a80677f23fc2b2889f53907de8c2b8b204901842ff",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/windows/repair.ps1",
+      "bytes": 2760,
+      "sha256": "8b414eddc868e336942dc4da05f423c9bb9df713397e22ded1cb6ff929b9bbb3",
+      "executable": false
+    },
+    {
+      "path": "bluetooth_bridge_controller/安装自动复位组件.command",
+      "bytes": 334,
+      "sha256": "6af9e52b2c5ad8c67512b7bf45f86d7a75d82083d7ea32536b645c24d2a23e6c",
+      "executable": true
+    },
+    {
+      "path": "bluetooth_bridge_controller/打开蓝牙控制台.command",
+      "bytes": 84,
+      "sha256": "50342a5dc80d4d826e73069f780746c02c4bdc4460069ef037558f6e178d6a32",
+      "executable": true
+    },
+    {
+      "path": "bluetooth_bridge_controller/自动复位切换验收.command",
+      "bytes": 305,
+      "sha256": "d4734375cd93aab2fb02a23d18febe9aa7e29816ee611bb675089255698f90f5",
+      "executable": true
+    },
+    {
+      "path": "bluetooth_bridge_controller/重启USB桥接服务.command",
+      "bytes": 214,
+      "sha256": "4fc428eedcec77628d2d687871b4965cdc423d98a2507da4fdffa6a8b08d3004",
+      "executable": true
+    },
+    {
+      "path": "bluetooth_bridge_controller/首次配置管理后台.command",
+      "bytes": 211,
+      "sha256": "793def1585ffda026bc76bfc6edd166b75981963ca7c327482c2375841d74fcd",
+      "executable": true
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 4560,
+      "sha256": "a02f9b4ef3a72add338bf7c60d03ad5db2cb62566802ae83f9d927b53ab0e924",
+      "executable": false
+    },
+    {
+      "path": "docs/BACKUP_SCOPE.md",
+      "bytes": 3392,
+      "sha256": "63377dc0601c4f5a3644591ecec697e4ede078c103217d8b686d2498dbc71d26",
+      "executable": false
+    },
+    {
+      "path": "docs/DEPLOYMENT.md",
+      "bytes": 7733,
+      "sha256": "451469bfbd766e7d22ffab17ae96ec9855ac87313085d42edc47b31e10fdb4d8",
+      "executable": false
+    },
+    {
+      "path": "docs/RESTORE.md",
+      "bytes": 6156,
+      "sha256": "d77c8e25d94a683cb5acac5e6cbe4da107d2e599ea3787b1d80a377b678f9004",
+      "executable": false
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 3248,
+      "sha256": "76fe6316d76d2905d9af53cde5ba50ba2106b158b76f8d9749f6fe3e14bc12b5",
+      "executable": false
+    },
+    {
+      "path": "templates/com.virtualhere.vhusbd.plist.example",
+      "bytes": 674,
+      "sha256": "675911509d67de6f0422fd1d0dad195e134e443941fab13a7df54b92cced44d6",
+      "executable": false
+    },
+    {
+      "path": "templates/source-isolation.example.json",
+      "bytes": 100,
+      "sha256": "efe14e32499976a91ebce53d212a61eb7623b99ef1cbcf0b7f4be0d6376f0501",
+      "executable": false
+    },
+    {
+      "path": "templates/virtualhere.ini.example",
+      "bytes": 206,
+      "sha256": "206374c25740209fb6bc896f473b1f9065acdcf9c59059c8fbbe907fb117aab3",
+      "executable": false
+    },
+    {
+      "path": "tools/private_backup.py",
+      "bytes": 8125,
+      "sha256": "323c1b5816614e85d215434d48b49d91c758725a033c7e63e922c4e9788901e4",
+      "executable": false
+    },
+    {
+      "path": "tools/verify_backup.py",
+      "bytes": 1398,
+      "sha256": "b7af9b1f6bced33fbf52b13f3f527c22a706b0c797d2e05eb965d4052cb6892d",
+      "executable": false
+    }
+  ]
+}

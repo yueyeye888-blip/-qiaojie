@@ -1,0 +1,15 @@
+{
+  "baseline": "2026-11-10-single-usb-working-baseline",
+  "timezone": "Asia/Singapore",
+  "repository": "https://github.com/yueyeye888-blip/-qiaojie",
+  "baseline_branch": "baseline/2026-11-10-single-usb",
+  "implemented": "single USB native macOS VirtualHere + Tailscale + controller + Windows agent + independent watchdog",
+  "not_implemented": [
+    "multi-USB parallelism",
+    "external borrowing API",
+    "background infinite renewal after browser close"
+  ],
+  "python_tests_passed": 83,
+  "browser_scenario_groups_passed": 8,
+  "private_state_published": false
+}

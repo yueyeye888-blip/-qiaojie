@@ -1,0 +1,6 @@
+{
+  "backend": "127.0.0.1",
+  "port": 7576,
+  "allowed_devices": "10d7/b012",
+  "installed_at": 0
+}
